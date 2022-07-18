@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Recursos/img/salario.png</file>
+        <file>Recursos/img/abrir.png</file>
+        <file>Recursos/img/calcular.png</file>
+        <file>Recursos/img/guardar.png</file>
+        <file>Recursos/img/nuevo.png</file>
+        <file>Recursos/img/salir.png</file>
+        <file>Recursos/img/acercade.png</file>
+        <file>salarios_uk_UK.qm</file>
+    </qresource>
+</RCC>

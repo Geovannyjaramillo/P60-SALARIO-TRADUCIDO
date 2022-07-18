@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Salarios</class>
+ <widget class="QMainWindow" name="Salarios">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>407</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Rockwell Nova</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Salarios</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="iconosalario.qrc">
+    <normaloff>:/Recursos/img/salario.png</normaloff>:/Recursos/img/salario.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(226, 232, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>250</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QWidget" name="widget_3" native="true">
+         <layout class="QFormLayout" name="formLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Nombre:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Horas:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QSpinBox" name="inHoras">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(251, 255, 202);</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="inNombre">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(251, 255, 202);</string>
+            </property>
+            <property name="placeholderText">
+             <string>Ingrese Nombre</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="font">
+          <font>
+           <family>Rockwell Nova</family>
+          </font>
+         </property>
+         <property name="toolTip">
+          <string>Eliga la jornada del obrero</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(226, 232, 255);</string>
+         </property>
+         <property name="title">
+          <string>Jornada</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QRadioButton" name="inMatutina">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Matutina</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="inVespertina">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Vespertina</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="inNocturna">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Nocturna</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_4" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>156</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="btnCalcular">
+            <property name="font">
+             <font>
+              <family>Rockwell Nova</family>
+             </font>
+            </property>
+            <property name="toolTip">
+             <string>Calcular Salario</string>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(251, 255, 202);</string>
+            </property>
+            <property name="text">
+             <string>&amp;Calcular</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>83</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>0</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPlainTextEdit" name="outCalculos">
+         <property name="font">
+          <font>
+           <family>Rockwell Nova</family>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(251, 255, 202);</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+         <property name="placeholderText">
+          <string>Resultados de los Calculos</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivos">
+    <property name="title">
+     <string>Archivos</string>
+    </property>
+    <addaction name="actionNuevo"/>
+    <addaction name="actionAbrir"/>
+    <addaction name="actionGuardar"/>
+    <addaction name="actionCalcular"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuA_yuda">
+    <property name="title">
+     <string>A&amp;yuda</string>
+    </property>
+    <addaction name="actionAcerca_de"/>
+   </widget>
+   <addaction name="menuArchivos"/>
+   <addaction name="menuA_yuda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNuevo">
+   <property name="icon">
+    <iconset resource="iconosalario.qrc">
+     <normaloff>:/Recursos/img/nuevo.png</normaloff>:/Recursos/img/nuevo.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Nuevo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionAbrir">
+   <property name="icon">
+    <iconset resource="iconosalario.qrc">
+     <normaloff>:/Recursos/img/abrir.png</normaloff>:/Recursos/img/abrir.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Abrir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="icon">
+    <iconset resource="iconosalario.qrc">
+     <normaloff>:/Recursos/img/guardar.png</normaloff>:/Recursos/img/guardar.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Guardar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionCalcular">
+   <property name="icon">
+    <iconset resource="iconosalario.qrc">
+     <normaloff>:/Recursos/img/calcular.png</normaloff>:/Recursos/img/calcular.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Calcular</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="icon">
+    <iconset resource="iconosalario.qrc">
+     <normaloff>:/Recursos/img/salir.png</normaloff>:/Recursos/img/salir.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Salir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionAcerca_de">
+   <property name="icon">
+    <iconset resource="iconosalario.qrc">
+     <normaloff>:/Recursos/img/acercade.png</normaloff>:/Recursos/img/acercade.png</iconset>
+   </property>
+   <property name="text">
+    <string>Acerca de</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="iconosalario.qrc"/>
+ </resources>
+ <connections/>
+</ui>

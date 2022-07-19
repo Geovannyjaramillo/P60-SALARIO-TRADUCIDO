@@ -8,5 +8,6 @@
         <file>Recursos/img/salir.png</file>
         <file>Recursos/img/acercade.png</file>
         <file>salarios_uk_UK.qm</file>
+        <file>salarios_no_NO.qm</file>
     </qresource>
 </RCC>

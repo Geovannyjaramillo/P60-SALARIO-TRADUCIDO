@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 5.0.2, 2022-07-17T18:26:47. -->
+<!-- Written by QtCreator 5.0.2, 2022-07-17T20:15:23. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -240,9 +240,8 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">salarios2</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/jljar/Documents/UPS GEOVANNY/7. SEPTIMO SEMESTRE/POO/Nueva carpeta/P60-SALARIO-TRADUCIDO/salarios.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/jljar/Documents/UPS GEOVANNY/7. SEPTIMO SEMESTRE/POO/Nueva carpeta/P60-SALARIO-TRADUCIDO/salarios.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/jljar/Documents/UPS GEOVANNY/7. SEPTIMO SEMESTRE/POO/P60-SALARIO-TRADUCIDO/salarios.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/jljar/Documents/UPS GEOVANNY/7. SEPTIMO SEMESTRE/POO/P60-SALARIO-TRADUCIDO/salarios.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>

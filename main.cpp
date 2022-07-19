@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
     QTranslator traduccion;
         // Solicitando al usuario que seleccione un idioma
         QStringList idiomas;
-        idiomas << "Ucraniano" << "Español";
+        idiomas <<  "Español"<< "Noruego" <<"Ucraniano";
 
     QString idiomaSeleccionado = QInputDialog::getItem(NULL,
                                    "Idioma",
@@ -20,8 +20,9 @@ int main(int argc, char *argv[])
         // Dependiendo del idioma seleccionado, carga el archivo de rtaducción
         if (idiomaSeleccionado == "Ucraniano"){
             traduccion.load(":/salarios_uk_UK.qm");
+        }else if(idiomaSeleccionado=="Noruego"){
+            traduccion.load(":/salarios_no_NO.qm");
         }
-
         // Si es diferente de español, se instala la traducción en TODA la aplicación
         if (idiomaSeleccionado != "Español"){
             a.installTranslator(&traduccion);}

@@ -27,6 +27,7 @@ FORMS += \
 
 TRANSLATIONS += \
     salarios_uk_UK.ts \
+    salarios_no_NO.ts \
 
 
 # Default rules for deployment.
@@ -38,4 +39,5 @@ RESOURCES += \
     iconosalario.qrc
 
 DISTFILES += \
+    salarios_no_NO.ts \
     salarios_uk_UK.ts
